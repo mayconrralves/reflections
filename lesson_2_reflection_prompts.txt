@@ -7,6 +7,11 @@ necessárias e onde serão guardados os commits.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+
+O diretório de ttabalho é o diretório raiz onde o projeto se encontra, nele está contid também o diretório oculto
+.git. A area de preparação é a parte responsável por preparar arquivos para o commit. Ela está contida 
+dentro do diretório de trabalho e armazena apenas os arquivos adicionados a ela.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
