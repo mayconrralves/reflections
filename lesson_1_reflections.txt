@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+   Usando o comando diff -u arq1 arq2. Localiza-se o erro comparando as linhas removidas e adcionadas
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Utilizando um controle de versões
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    No primeiro a vantagem está em fazer commit quando você achar necessário, permitindo um controle mais próximo, como desvangens ao esquecimento de fazer o commit,
+	ou realiza-lo demasiadamente ou escassamente tornando a busca de erros ou diferenças mais longa.
+	No segundo há a praticidade, mas haverá um adcional de versões diferentes dificultando a busca do arquivo necessário
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    No git normalmente se trabalha com múltiplos arquivos, é usado no desenvovimento de projetos.
+	Em um sistema como o do Google Docs trabalha-se com apenas um arquivo editavel de cada vez, ex um artigo cientifico
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+	
+	
+	Reflexão: commits manuais
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+Usar o git log quando for necessário listar os commit, tanto para manter os commits em um numero mais próximoo do ideal, tanto para localizar determinado commit .
+Usar o git diff sempre que for necessário descobrir onde no arquivo houve determinada alteração entre dois arquivos.
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+
+De modo que mantenho várias versões independentes do projeto, podendo a qualquer momento acessa-lo caso tenha alguma adversidade.
+
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+
+Para fazer o controle de versões de meus projetos, mas também como substituto básico do dos.
